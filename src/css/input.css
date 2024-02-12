@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#main-nav {
+  z-index: 99;
+}
+
+.navbar-toggler {
+  background: #fff;
+  border-radius: 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 35px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  #features {
+    margin-top: 15vw;
+  }
+  #solution {
+    margin-top: 15vw;
+  }
+}
